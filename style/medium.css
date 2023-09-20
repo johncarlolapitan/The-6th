@@ -1,0 +1,205 @@
+
+@media only screen and (max-width: 950px) {
+
+    /* For the navigation bar */
+
+    .navigationBar {
+        background: #333333;
+        padding: 35px;
+        margin-bottom: 100px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+        overflow: hidden;
+    }
+
+    .navbar-toggle {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        cursor: pointer;
+        font-size: 25px;
+        color: white;
+    }
+
+    .main-nav {
+        padding: 20px 0 10px 0;
+        display: none;
+    }
+
+    /* for the toggle and show the navigation */
+    .active {
+        display: block;
+    }
+
+    .navigationBar .main-nav li {
+        display: block;
+        padding: 0;
+        margin: 25px auto;
+        text-align: center;
+    }
+
+    /* Navigation bar for the other page */
+
+    .navBar {
+        padding: 35px;
+        margin-bottom: 50px;
+    }
+
+    .navBar .main-nav {
+        padding: 20px 0 10px 0;
+    }
+
+    .navBar .main-nav li {
+        display: block;
+        padding: 0;
+        margin: 25px auto;
+        text-align: center;
+    }
+
+    /* About us */
+
+    .businessInfo p {
+        padding: 40px;
+        box-sizing: border-box;
+    }
+
+    button {
+        width: 200px;
+        height: 60px;
+        border: none;
+        border-radius: 10px;
+        background: #F6AC18;
+        font-family: 'robotoregular';
+        size: 25px;
+    }
+
+    /* for the products */
+
+
+    /* Choose us */
+
+    .chooseInfo{
+        width: 100%;
+        display: grid;
+        grid-gap: 2%;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: left;
+    }
+
+    /* Contact */
+
+    .contact {
+        padding-top: 50px;
+    }
+
+    .contactInfo {
+        width: 80%;
+        max-width: 80%;
+        display: grid;
+        grid-gap: 5%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contactInfo iframe {
+        width: 100%;
+    }
+
+    .contactInfo img,
+    .contactInfo p {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    /* for the quotes section */
+
+    .quotesSection .quoteContainer h2 {
+        width: 80%;
+        margin: 6% auto;
+        font-size: 25px;
+    }
+
+    /* for the social media in other pages */
+    .socialMedia p {
+        font-size: 13px;
+        margin-left: 20px;
+    }
+
+    .socialMedia img {
+        width: 30px;
+    }
+
+    /* Story page */
+
+    /* Story section */
+    .storyWrapper {
+        width: 100%;
+        background: none;
+        box-shadow: none;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .storyInfo {
+        /* background-color: #F6AC18; */
+        padding: 70px 50px 130px 50px;
+    }
+
+    .storyInfo p,
+    .storyInfo h2 {
+        color: white;
+    }
+
+    .groupPicture {
+        width: 100%;
+        padding: 20px;
+    }
+
+
+
+    /* For the products */
+
+    .productInfo {
+        margin-top: 30px;
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: left;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .productIngredients {
+        margin-top: 0px;
+        padding: 20px 40px;
+        box-sizing: border-box;
+    }
+
+    /* for the team */
+    .teamSlider div p:nth-child(2) {
+        line-height: 9px;
+    }
+
+    
+    @media only screen and (max-width: 830px) {
+            
+            .productInfo {
+                margin-top: 20px;
+                display: grid;
+                grid-gap: 5px;
+                grid-template-columns: repeat(1, 1fr);
+                text-align: left;
+                padding: 40px;
+                box-sizing: border-box;
+            }
+
+            .productInfo img {
+                margin-top: 0px;
+                width: 80%;
+            }
+
+            .teamSlider div p:nth-child(2) {
+                line-height: 20px;
+            }
+    }
+
+}

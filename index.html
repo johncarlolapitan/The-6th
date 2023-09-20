@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The 6th</title>
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- all styling sheets 
+            this is for all the assets -->
+        <link rel="stylesheet" type="text/css" href="assets/normalize.css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="assets/fontawesome-free-5.6.3-web/css/all.css">
+        <link rel="stylesheet" type="text/css" href="assets/sal-master/sal-master/dist/sal.css">
+
+        <!-- for the main stylesheet -->
+        <link rel="stylesheet" type="text/css" href="style/main.css">
+        
+        <!-- for the media queries -->
+        <link rel="stylesheet" media='screen and (max-width: 950px)' href='style/medium.css'>
+        <link rel="stylesheet" media="screen and (max-width: 600px)" href="style/small.css">
+    </head>
+    <body>
+        <header>
+            <!-- for the landing page :
+                para hindi macut yung image sa container -->
+            <div class="landingImage" id="target_1">
+                <!-- nav element :
+                        for the navigation tab -->
+                        <div class="navigationBar">
+                            <span class="navbar-toggle" id="js-navbar-toggle">
+                                <i class="fas fa-bars"></i>
+                            </span>
+                            <ul class="main-nav">
+                                <li><a href="#target_1">Home</a></li>
+                                <li><a href="#target_2">Story</a></li>
+                                <li><a href="#target_3">Menu</a></li>
+                                <li><a href="#target_4">Contact</a></li>
+                            </ul>
+                        </div>
+                <!-- container class :
+                    for the 180 grid-->
+                <div class="container">
+                    <!-- content of the landing page -->
+                    <h1 data-sal="slide-up" data-sal-duration="2000" data-sal-delay="200" data-sal-easing="ease-out-bounce">The 6th</h1>
+                    <p class="branding" data-sal="slide-down" data-sal-duration="2000" data-sal-delay="400" data-sal-easing="ease-in">Perfection through confection</p>
+                    <!-- img client logo -->
+                    <img src="img/badge.png" alt="Business Logo" class="businessLogo">
+                </div>
+            </div>
+        </header>
+        
+        <!-- section for the about us little -->
+        <div class="container">
+            <div class="businessInfo" id="target_2">
+                <h2>A little bit about us</h2>
+                <p>Over the years, but in labor and in pain to be the most exciting running smoothly of the project. But, in truth, two minutes, and just, and feel, and the things to preview them.</p>
+                <a href="story.html"><button id="btnAbout">Our Story</button></a>
+            </div>
+        </div>
+
+        <!-- section for the special menu -->
+        <div class="container">
+            <div class="specialMenu" id="target_3">
+                <h2>Special Menu</h2>
+                <p>Taste the feeling of Region 6</p>
+                <div class="menuProducts">
+                        <div id="product1">
+                            <p>Buko Pie</p>
+                            <img src="img/buko-pie.jpg">
+                        </div>
+                        <div id="product2">
+                            <p>Egg Pie</p>
+                            <img src="img/egg-pie.jpg">
+                        </div>
+                        <div id="product3">
+                            <p>Cashew Tart</p>
+                            <img src="img/cashew-tart.jpg">
+                        </div>
+                        <div id="product4">
+                            <p>Choco Tart</p>
+                            <img src="img/choco-tart.jpg">
+                        </div>
+                        <div id="product5">
+                            <p>Dried Mango Piaya</p>
+                            <img src="img/driedmango-piaya.png">
+                        </div>
+                        <div id="product6">
+                            <p>Jackfruit Empanada</p>
+                            <img src="img/jackfruit.jpg">
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- section for Why Choose Us? -->
+        <div class="chooseUs">
+            <div class="container">
+                <div class="choose">
+                    <div class="chooseInfo">
+                        <div>
+                            <h2 data-sal="slide-right" data-sal-duration="1000" data-sal-delay="200" data-sal-easing="ease-out">Why Choose Us?</h2>
+                            <p data-sal="fade" data-sal-duration="5000" data-sal-delay="1000">Our business is not just a business, it's also a love from the far west of the Western Visayas Region (Region 6).
+                                 You will feel the love through delicious foods, but now you have to go in Western Visayas, 
+                                 you don’t need to spend too much or your money, because there is a group of students who have 
+                                 created a way to experience the delicious food that Western Visayas are proud of. This is “The 6th”  
+                                 . A business that inspired foods from Westen Visayas. Besides it is good, and very cheap. 
+                                 These foods include Egg Pie, Buko Pie, Cashew Tart, Choco Tart, Dried Mango Piaya and Jackfruit 
+                                 Empanada. You just have to try it once so what are you waiting for? Do not try, Buy it.</p>
+                        </div>
+                        <div>
+                            <img src="img/product_1.png" alt="Serving">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- section for quotes -->
+        <div class="quotesSection">
+            <div class="container">
+
+                <!-- When the arrow images is clicked
+                    different quotes will show -->
+                <div class="quoteContainer">
+                    <h2 id="quotes">Lorem ipsum dolor sit , consetetur sadipscing elitr <span>- mark</span></h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- section for the contact
+            with embended google map
+            and client/business info -->
+        <div class="container">
+            <div class="contact" id="target_4">
+                <h2>Get in touch</h2>
+                <div class="contactInfo">
+
+                    <!-- <div class="mapLocation">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3844.9696614941236!2d120.58404731422291!3d15.486063989243515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396c639f9dca7bb%3A0xee5951f095f5eb14!2sSTI!5e0!3m2!1sen!2sph!4v1546692811930" width="350" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div> -->
+
+                    <div class="info">
+                        <div>
+                            <img src="img/phone_icon.png" alt="Phone Number Icon">
+                            <p>090918987293</p>
+                        </div>
+        
+                        <div>
+                            <img src="img/location_icon.png" alt="Location Icon" class="address">
+                            <p>San Vicente, STI College of Tarlac</p>
+                        </div>
+        
+                        <div>
+                            <img src="img/fb_icon_dark.png" alt="Facebook Icon">
+                            <p>The 6th "Western Visayas Best"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- for the footer -->
+        <footer>
+            <p>Copyright &copy; The6th <span>developed by intelligence</span></p>
+        </footer>
+
+        
+        <!-- this is for the js scipts -->
+        <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+
+        <!-- for the js plugins -->
+        <script type="text/javascript" src="assets/jquery.smoothscroll.js"></script>
+        <script type="text/javascript" src="assets/sal-master/sal-master/dist/sal.js"></script>
+    </body>
+</html>
