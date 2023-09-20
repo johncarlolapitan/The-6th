@@ -1,0 +1,57 @@
+
+@media only screen and (max-width: 600px) {
+
+    /* Landing page */
+    
+    h1 {
+        font-size: 120px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    /* choose us */
+
+    .choose {
+        padding: 100px 50px;
+    }
+
+    /* qoutes */
+
+    .quoteContainer h2 {
+        font-size: 40px;
+    }
+
+    /* contact */
+
+    .contact .info p {
+        font-size: 15px;
+    }
+    
+
+    /* for the social media footer in other pages */
+    .socialMedia {
+        display: block;
+        text-align: center;
+    }
+
+    .socialMedia img {
+        width: 45px;
+        margin: 20px auto 0 auto;
+    }
+
+    .socialMedia p {
+        display: block;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    /* Story page */
+
+    .storyInfo {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 70px 20px 50px 20px;
+    }
+}
